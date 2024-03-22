@@ -33,4 +33,14 @@
     console.log(typeof test);
 
     test = function(){};
-    console.log(typeof test);
+    console.log(typeof test);    // function -> java 에서 method 같은 존재
+
+/* 동적 타입 언어의 단점을 보완하기 위해 변수 사용 시 주의점
+    1. 변수는 꼭 필요한 경우 한해 제한적으로 사용해야 한다.
+    2. 변수의 유효 범위(스코프)를 최댇한 좁게 만든다.
+    3. 전역 변수 지양
+    4. 변수보다 상수를 사용하여 값의 변경을 억제한다.
+    5. 변수명을 통해 변수의 목적이나 의미를 파악할 수 있도록 한다.
+*/
+
+

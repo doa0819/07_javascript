@@ -20,4 +20,4 @@ console.log(undef);
 
 var nullVal = 'something';
 nullVal = null;
-console.log(nullVal);
+console.log(nullVal);    // null 을 하나의 타입으로 봐준다.

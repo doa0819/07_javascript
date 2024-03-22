@@ -12,6 +12,7 @@ console.log(parseInt('10.01'));
 console.log(Number('+10'));
 
 // 4. * 산술연산자 이용
-console.log('10' * 1);
+console.log('10' * 1);   // 10
+console.log()
 
 

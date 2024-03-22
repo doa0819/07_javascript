@@ -13,5 +13,6 @@ if('java')console.log("if('java')");
 
 
 
+
 // Falsy 값 : false, undefined, null, 0, NaN, ''(빈 문자열)
 // Truthy 값 : falsy 값 제외 모든 값. 
