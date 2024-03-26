@@ -7,6 +7,9 @@
     var obj = null;
     // .value 는 객체의 속성을 참조하는 것이다.
 
+    // var val = obj.value;
+    // console.log(val);
+
     var val = obj?.value;
     console.log(val);
 

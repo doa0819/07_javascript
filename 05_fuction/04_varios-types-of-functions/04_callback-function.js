@@ -29,4 +29,10 @@ function apply(func, value){                           //func -> 함수를 전�
 console.log(apply(increase, 5));
 console.log(apply(decrease, 5));
 
-console.log(apply(function(value){return value ** 2;}, 5));
+// 콜백 함수를 익명 함수 리터럴로 정의하면서 곧바로 고차함수에 전달할 수 있다.
+console.log(apply(function(value){return value ** 2;}, 5));     // ** -> 제곱
+
+/* 함수의 변하지 않는 공통 로직은 미리 정의해두고 경우에 따라 변경되는
+    로직은 추상화 해서 함수 외부레서 내부로 전달하는 방식
+    비동기 처리(이벤트, 타이머, ajax) 에 자주 사용되는 패턴이다.
+*/

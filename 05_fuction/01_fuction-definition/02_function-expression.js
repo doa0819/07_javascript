@@ -23,3 +23,5 @@
     //단 함수 호출은 식별자로 이루어진다. -> calc
     // console.log(add(10,20));
     console.log(calc(10,20));
+
+    // 함수 선언문에서는 무조건 function 써야 하지만 표현할때는 식별자로 호출
